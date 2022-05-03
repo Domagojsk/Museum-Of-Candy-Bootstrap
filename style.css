@@ -1,0 +1,80 @@
+body {
+  background-color: #f5d9d5;
+  font-family: 'Poppins', sans-serif;
+}
+
+#mainNav {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNav .nav-link {
+  color: #f15bb5;
+}
+
+#mainNav .nav-link:hover {
+  color: #ea1c2c;
+  font-weight: 400;
+}
+
+#mainNav .navbar-brand {
+  color: #ea1c2c;
+}
+
+#main-text {
+  color: #f15bb5;
+  text-shadow: 2px 2px 2px #f15bb5;
+}
+
+#main-text h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+#main-text span {
+  color: #ea1c2c;
+}
+
+#side-text h2 {
+  color: #ea1c2c;
+  font-size: 2.4rem;
+  font-weight: 100;
+}
+
+#side-text p {
+  color: #f15bb5;
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(234, 28, 44, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+}
+
+.navbar-light .navbar-toggler:active,
+.navbar-light .navbar-toggler:focus {
+  border-color: #ea1c2c;
+  outline: 0;
+}
+
+.content {
+  margin-top: 6.35rem;
+  margin-bottom: 6.35rem;
+}
+
+.navbar.scrolled {
+  background-color: rgba(241, 192, 232, 0.7);
+  transition: all 0.3s ease-out;
+}
+
+@media (max-width: 1200px) {
+  #main-text h1 {
+    font-size: 3rem;
+  }
+}
